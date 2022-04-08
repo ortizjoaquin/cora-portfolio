@@ -77,3 +77,36 @@ overflow: hidden;
   color: #fff;
   text-decoration: none;
 }
+
+.home-info__container i {
+  margin: 0 10px 0 0
+}
+
+/* About ----------------- */
+
+/* Languages & Skills ---- */
+
+.languages-container {
+  width: 100%;
+}
+
+.languages-container__wrapper {
+  margin: 25px;
+}
+
+.language {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.skills-container__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+.skill {
+  padding: 10px;
+}
