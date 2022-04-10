@@ -53,6 +53,8 @@
   width: 100%;
   justify-content: flex-end;
   align-items: center;
+  margin: 0 1rem;
+  padding: 0 1rem;
 }
 
 .desktop-menu__routes {
@@ -60,7 +62,7 @@
 }
 
 .desktop-menu__routes li {
-  margin: 0 10px
+  margin: 0 0 0 25px
 }
 
 .desktop-menu__routes li a {
