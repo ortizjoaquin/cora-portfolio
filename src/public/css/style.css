@@ -184,11 +184,15 @@ overflow: hidden;
 
 footer {
   display: flex;
-  align-items:center;
+  align-items:flex-start;
   justify-content: center;
   background-color: rgb(37, 37, 37);
-  height: 60px;
+  height: 150px;
   scroll-snap-align: start;
+}
+
+footer span {
+  padding-top: 20px;
 }
 
 footer span a {
