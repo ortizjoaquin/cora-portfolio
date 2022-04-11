@@ -35,8 +35,8 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
   transition: 0.3s
 }
 
@@ -46,6 +46,37 @@
   margin: 0 1rem;
   padding: 0 1rem;
   font-size: 2rem;
+}
+
+.mobile-menu__untoggle {
+  display: block;
+  color: #fff;
+  margin: 1rem 1rem;
+  padding: 0 1rem;
+  font-size: 2.5rem;
+  text-align: end;
+  font-weight: 200;
+}
+
+.mobile-menu__routes {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.mobile-menu__contact {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-bottom: 15vh;
+}
+
+.mobile-menu__contact i {
+  color: #fff;
+}
+
+.mobile-menu__routes li {
+  margin: 25px;
 }
 
 .desktop-menu {
