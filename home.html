@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./src/public/css/reset.css">
   <link rel="stylesheet" href="./src/public/css/style.css">
   <link rel="stylesheet" href="./src/public/css/nav.css">
+  <script src="./src/public/js/index.js"></script>
   <script src="https://kit.fontawesome.com/e55c172b23.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,15 +20,15 @@
       <div class="title">
         <h1>cora</h1>
       </div>
-      <button class="mobile-menu__toggle">
+      <button onclick="openNav()" class="mobile-menu__toggle">
         &#9776;
       </button>
-      <div class="mobile-menu">
-        <button class="mobile-menu__untoggle">
+      <div class="mobile-menu" id="mobile-menu">
+        <button onclick="closeNav()" class="mobile-menu__untoggle">
           &times;
         </button>
         <ul class="mobile-menu__routes">
-          <li><a onclick="document.getElementById('home').scrollIntoView(); closeNav()">inicio</a></li>
+          <li><a onclick="closeNav(); document.getElementById('home').scrollIntoView()">inicio</a></li>
           <li><a onclick="document.getElementById('about').scrollIntoView(); closeNav()">sobre mí</a></li>
           <li><a onclick="document.getElementById('languages-and-skills').scrollIntoView(); closeNav()">habilidades</a></li>
           <li><a onclick="document.getElementById('experience').scrollIntoView(); closeNav()">experiencia</a></li>
@@ -58,7 +59,7 @@
         <div class="home-img__container">
           <img src="./src/public/img/foto frente.jpeg">
         </div>
-        <div class="home-info__container">
+        <div class="home-info__container--mobile">
           <div class="home-info__title">
             <h2>cora picasso</h2>
             <h3>ingeniera industrial</h3>
@@ -83,6 +84,29 @@
         </div>
       </section>
       <section class="about" id="about">
+        <div class="home-info__container--desktop">
+          <div class="home-info__title">
+            <h2>cora picasso</h2>
+            <h3>ingeniera industrial</h3>
+          </div>
+          <span class="home-info__location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>barcelona, cataluña</h4>
+          </span>
+          <div class="home-info__contact">
+            <ul>
+              <li>
+                <i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/corapicasso/" target="_blank">LindekIn</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i><a href="mailto:corapicasso@gmail.com">corapicasso@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i><a href="tel:+34-627-626-591">+34 627 626 591</a>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="about-info-container">
           <h2>sobre mí</h2>
           <p>
