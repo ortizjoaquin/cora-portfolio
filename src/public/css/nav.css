@@ -53,13 +53,13 @@
   color: #fff;
   margin: 1rem 1rem;
   padding: 0 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: end;
   font-weight: 200;
 }
 
 .mobile-menu__routes {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -67,8 +67,8 @@
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  font-size: 2.5rem;
-  padding-bottom: 15vh;
+  font-size: 2rem;
+  padding-bottom: 20vh;
 }
 
 .mobile-menu__contact i {

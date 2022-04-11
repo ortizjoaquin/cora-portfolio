@@ -53,7 +53,7 @@ overflow: hidden;
 }
 
 .home-info__title {
-  margin: 10px;
+  margin: 5px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -65,13 +65,13 @@ overflow: hidden;
 .home-info__location {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 5px;
   text-transform: uppercase;
 }
 
 .home-info__contact {
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 .home-info__contact ul li {
