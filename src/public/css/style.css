@@ -323,6 +323,15 @@ footer span a p {
   scroll-snap-align: none;
   }
 
+  footer {
+    align-items:center;
+    height: 60px;
+  }
+  
+  footer span {
+    padding-top: 0;
+  }
+
 }
 
 @media only screen and (min-width: 1280px) {
