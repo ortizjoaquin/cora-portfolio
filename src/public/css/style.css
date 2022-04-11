@@ -157,6 +157,10 @@ overflow: hidden;
 
 /* Formation ------------ */
 
+.formation {
+  align-items: flex-start;
+}
+
 .formation-container {
   margin: 25px;
 }
@@ -228,14 +232,17 @@ footer span a p {
 
   .home-info__title {
     text-align: left;
+    margin-left: 0;
   }
 
   .home-info__location {
     justify-content: left;
+    margin-left: 0;
   }
 
   .home-info__contact {
     text-align: left;
+    margin-left: 0;
   }
 
   .about {
@@ -308,6 +315,7 @@ footer span a p {
   }
 
   .formation {
+  align-items: flex-end;
   scroll-snap-align: none;
   }
 
