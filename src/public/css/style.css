@@ -37,6 +37,7 @@ display: flex;
 justify-content: center;
 align-items: flex-start;
 min-width: 100%;
+min-height: 400px;
 max-height: 60vh;
 overflow: hidden;
 }
@@ -208,7 +209,7 @@ footer span a p {
 
 /* Media Queries */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 688px) {
   .first-section-container {
     display: flex;
   }
